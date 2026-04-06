@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anisiya Rodionova – CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #e2e8f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            padding: 32px;
+        }
+        .cv-card {
+            max-width: 1000px;
+            width: 100%;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 20px 35px -10px rgba(0,0,0,0.2);
+            padding: 40px 48px;
+            transition: all 0.2s;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+            color: #0f172a;
+            margin-bottom: 6px;
+        }
+        .subhead {
+            font-size: 18px;
+            color: #2c3e66;
+            border-left: 4px solid #3b82f6;
+            padding-left: 14px;
+            margin: 8px 0 16px 0;
+            font-weight: 500;
+        }
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            background: #f8fafc;
+            padding: 14px 18px;
+            border-radius: 20px;
+            margin-bottom: 32px;
+            font-size: 14px;
+            color: #1e293b;
+        }
+        .contact span {
+            font-weight: 500;
+            color: #0f172a;
+        }
+        .section {
+            margin-bottom: 28px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #0f172a;
+            border-bottom: 3px solid #3b82f6;
+            display: inline-block;
+            padding-bottom: 4px;
+            margin-bottom: 16px;
+        }
+        .job, .edu-item {
+            margin-bottom: 22px;
+        }
+        .job-header, .edu-header {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: baseline;
+            margin-bottom: 6px;
+        }
+        .job-title {
+            font-weight: 700;
+            font-size: 17px;
+            color: #0f172a;
+        }
+        .company {
+            font-weight: 600;
+            color: #2563eb;
+        }
+        .date {
+            font-size: 13px;
+            color: #475569;
+            background: #f1f5f9;
+            padding: 2px 10px;
+            border-radius: 30px;
+        }
+        .desc-list {
+            list-style: none;
+            margin-top: 8px;
+        }
+        .desc-list li {
+            font-size: 14px;
+            color: #1e293b;
+            margin-bottom: 6px;
+            padding-left: 18px;
+            position: relative;
+        }
+        .desc-list li::before {
+            content: "•";
+            color: #3b82f6;
+            font-weight: bold;
+            position: absolute;
+            left: 4px;
+        }
+        .about-text {
+            background: #fefce8;
+            padding: 16px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #1e293b;
+            margin-top: 6px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 8px;
+        }
+        .skill-badge {
+            background: #eef2ff;
+            color: #1e40af;
+            padding: 6px 14px;
+            border-radius: 40px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .two-columns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            margin-top: 8px;
+        }
+        .col {
+            flex: 1;
+            min-width: 180px;
+        }
+        hr {
+            margin: 16px 0 8px;
+            border: none;
+            height: 1px;
+            background: #e2e8f0;
+        }
+@media (max-width: 700px) {
+            .cv-card {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="cv-card">
+    <h1>Anisiya Rodionova</h1>
+    <div class="subhead">Business Assistant / Project Assistant</div>
+
+    <div class="contact">
+        <div>📞 <span>+7 (913) 632-24-32</span></div>
+        <div>📍 <span>Omsk | Remote work</span></div>
+        <div>✉️ <span>anisiyarodionova@gmail.com</span></div>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="section">
+        <div class="section-title">EDUCATION</div>
+        <div class="edu-item">
+            <div class="job-header">
+                <span class="job-title">Omsk State Technical University (OmSTU)</span>
+                <span class="date">Graduation: 2026</span>
+            </div>
+            <div style="font-size:14px; color:#334155;">Faculty: Economics, Service and Management</div>
+            <div style="font-size:14px; color:#334155;">Specialty: Business Economics</div>
+            <div style="font-size:14px; color:#334155;">Form of study: Full-time</div>
+        </div>
+    </div>
+
+    <!-- WORK EXPERIENCE -->
+    <div class="section">
+        <div class="section-title">WORK EXPERIENCE</div>
+
+        <div class="job">
+            <div class="job-header"><span class="job-title">Assistant to the Director (Sole Proprietor), remote</span><span class="date">12.2022 — 04.2024</span></div>
+            <ul class="desc-list">
+                <li>Conducted market, target audience and competitor analysis</li>
+                <li>Developed content ideas and promotion strategies</li>
+                <li>Created visual and text materials (posts, newsletters, offers)</li>
+                <li>Processed and qualified incoming requests</li>
+                <li>Consulted clients and passed leads to further work</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header"><span class="job-title">Manager (B2B Fulfillment), Moscow</span><span class="date">06.2024 — 09.2024</span></div>
+            <ul class="desc-list">
+                <li>Optimized business processes: logistics, sales, work with contractors</li>
+                <li>Controlled inventory balances, reporting and document flow</li>
+                <li>Conducted negotiations and accompanied clients</li>
+                <li>Increased active client base by 2.5 times in 3 months</li>
+                <li>Increased company net profit by 5 times</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header"><span class="job-title">Project Manager (marketing agency), remote</span><span class="date">12.2024 — 04.2025</span></div>
+            <ul class="desc-list">
+                <li>Managed up to 5 projects simultaneously</li>
+                <li>Coordinated a team of 2–5 people</li>
+                <li>Developed and tested content strategies</li>
+                <li>Analyzed KPIs (reach, engagement, conversions)</li>
+                <li>Conducted online meetings with clients, presented results</li>
+                <li>Increased leads by 5–15% monthly</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header"><span class="job-title">Transfer Guide (Fun&Sun), Turkey, Bodrum</span><span class="date">06.2025 — 09.2025</span></div>
+            <ul class="desc-list">
+                <li>Conducted presentations for groups of up to 45 people</li>
+                <li>Increased client interest in company products</li>
+                <li>Participated in increasing sales of excursion services</li>
+                <li>Worked with an international audience</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <div class="section">
+        <div class="section-title">ABOUT ME</div>
+        <div class="about-text">
+            Business assistant with experience in project management, marketing and operational processes.<br><br>
+Coordinated teams of up to 5 people, managed up to 5 projects simultaneously, worked with clients, analytics and business tasks.<br><br>
+            I have experience in process optimization, interaction with contractors and client support.<br><br>
+            Looking for a remote position as an assistant / project assistant with a focus on task management, communication and business process support.
+        </div>
+    </div>
+
+    <!-- ADDITIONAL INFO + KEY SKILLS (two columns) -->
+    <div class="two-columns">
+        <div class="col">
+            <div class="section" style="margin-bottom:0;">
+                <div class="section-title">ADDITIONAL INFO</div>
+                <ul class="desc-list" style="margin-top: 4px;">
+                    <li>English — B1</li>
+                    <li>Event management experience</li>
+                    <li>Student activities</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="section" style="margin-bottom:0;">
+                <div class="section-title">KEY SKILLS</div>
+                <div class="skills">
+                    <span class="skill-badge">Project Management</span>
+                    <span class="skill-badge">Task Management</span>
+                    <span class="skill-badge">Team coordination</span>
+                    <span class="skill-badge">Client Communication</span>
+                    <span class="skill-badge">KPI and reporting</span>
+                    <span class="skill-badge">Data & metrics analysis</span>
+                    <span class="skill-badge">CRM and lead management</span>
+                    <span class="skill-badge">Process organization</span>
+                    <span class="skill-badge">SMM & content strategies</span>
+                    <span class="skill-badge">Business correspondence</span>
+                    <span class="skill-badge">MS Excel (formulas, pivot tables)</span>
+                    <span class="skill-badge">Google Docs / Sheets / Canva</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div style="font-size: 11px; color: #94a3b8; text-align: center; margin-top: 16px;">Anisiya Rodionova – Business Assistant / Project Assistant</div>
+</div>
+</body>
+</html>
